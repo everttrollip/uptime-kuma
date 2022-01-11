@@ -1,2 +1,0 @@
-[context.production]
-  command = "npm run setup && pm2 start server/server.js --name uptime-kuma"
