@@ -1,0 +1,5 @@
+[build]
+  command = "npm run setup"
+
+[context.production]
+  command = "node server/server.js"
