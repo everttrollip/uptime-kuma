@@ -2,4 +2,4 @@
   command = "npm run setup"
 
 [context.production]
-  command = "node server/server.js"
+  command = "node server/server.js --host='https://ctpd-monitory.netlify.app'"
