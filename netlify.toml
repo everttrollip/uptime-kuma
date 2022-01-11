@@ -1,5 +1,5 @@
 [build]
-  command = "npm run setup"
+  command = "npm run setup && npm install pm2 -g"
 
 [context.production]
-  command = "node server/server.js --host='https://ctpd-monitory.netlify.app'"
+  command = "pm2 start server/server.js --name uptime-kuma"
